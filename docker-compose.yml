@@ -1,0 +1,24 @@
+services:
+  solidbenchmv:
+    build: ./solidbench-multiple-vocab/
+    ports:
+      - "4099:4099"
+    volumes:
+      - ./solidbench-multiple-vocab/out-fragments/:/app/out-fragments
+
+  solidbench:
+    build: ./solidbench/
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./solidbench/out-fragments/:/app/out-fragments
+
+  frontend:
+    build:
+      context: https://github.com/onlineSchemaAlignmentLTQP/frontend-demonstration.git
+      dockerfile: Dockerfile
+    ports:
+      - "4050:80"
+    depends_on:
+      - solidbenchmv
+      - solidbench

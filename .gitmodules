@@ -1,0 +1,6 @@
+[submodule "solidbench"]
+	path = solidbench
+	url = https://github.com/onlineSchemaAlignmentLTQP/solidbench.git
+[submodule "solidbench-multiple-vocab"]
+	path = solidbench-multiple-vocab
+	url = https://github.com/onlineSchemaAlignmentLTQP/solidbench-multiple-vocab.git
