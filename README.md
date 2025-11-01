@@ -4,7 +4,7 @@ Demonstrator for the paper "Online Schema Alignment for Link Traversal Queries i
 
 ## Prerequisites
 
-- [Node.js 20](https://nodejs.org/en/download) or higher
+- [Node.js 20](https://nodejs.org/en/download)
 - [Yarn](https://yarnpkg.com/getting-started/install)
 - [Docker](https://docs.docker.com/engine/install/)
 
