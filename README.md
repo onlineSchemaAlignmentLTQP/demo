@@ -2,6 +2,10 @@
 
 Demonstrator for the paper "Online Schema Alignment for Link Traversal Queries in Decentralized Knowledge Graphs."
 
+![demo image](./img/demo_screenshot.png "Title")
+
+A video is available online: https://www.youtube.com/watch?v=fGDQwu65los
+
 ## Prerequisites
 
 - [Node.js 20](https://nodejs.org/en/download)
